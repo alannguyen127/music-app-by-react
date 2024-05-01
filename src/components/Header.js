@@ -5,10 +5,11 @@ import Typography from "@mui/material/Typography";
 function Header() {
   const { currentTrackName } = useMusicPlayer();
   return (
-    <marquee>
-      {" "}
-      <Typography variant="h5">Playing: {currentTrackName}</Typography>
-    </marquee>
+    <div className="marquee-container">
+      <Typography variant="h5" className="marquee-text">
+        Playing: {currentTrackName}
+      </Typography>
+    </div>
   );
 }
 
