@@ -4,7 +4,6 @@ import SkipNextIcon from "@mui/icons-material/SkipNext";
 import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
 import Stack from "@mui/material/Stack";
 import PauseCircleIcon from "@mui/icons-material/PauseCircle";
-import { hover } from "@testing-library/user-event/dist/hover";
 
 const styled = {
   border: "none",
